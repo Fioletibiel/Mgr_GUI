@@ -1,0 +1,64 @@
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/spacelab/bootstrap.min.css">
+  <script src="database.js"></script>
+</head>
+<style>
+  body, html {
+      height: 100%;
+      text-align: center;
+      overflow: hidden;
+      margin: auto;
+  }
+  body {
+    background-color: #312450;
+  }
+  .container {
+    text-align: center;
+    margin: auto;
+  }
+  p, button, label, input {
+    text-align: center;
+    margin: auto;
+  }
+</style>
+<body>
+  <div class="container">
+    <br><p>Please write your name, push play button and say something...</p><br>
+    <button class="btn btn-outline-secondary"><a style="color:white" href="index.html">< Back</a></button>
+    <label>Enter your name here</label>
+    <input id="name" type="text" placeholder="Name"/>
+    <button class="btn btn-outline-secondary" style="color:white" onclick="authorize_person()">Play</button>
+
+    <br>
+    <table class="table table-hover">
+      <thead>
+        <tr class="table-dark">
+          <th scope="col">Type</th>
+          <th scope="col">Column heading</th>
+          <th scope="col">Column heading</th>
+          <th scope="col">Column heading</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-active">
+          <th scope="row">Active</th>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+        </tr>
+        <tr>
+          <th scope="row">Default</th>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+        </tr>
+        <tr class="table-dark">
+          <th scope="row">Dark</th>
+          <td>Column content</td>
+          <td>Column content</td>
+          <td>Column content</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+<body>

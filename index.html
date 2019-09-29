@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Speaker Detection System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/icon.png">
+  <link rel="stylesheet" href="./engine/Keyboard.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link href="grid.css" rel="stylesheet">
+  <script type="text/javascript" src="./test.js"></script>
+  <script src="./engine/Keyboard.js"></script>
+  <link rel="stylesheet" href="http://localhost:8080/css">
+  <script type="text/javascript" src="http://localhost:8080/script"></script>
+  <style>
+
+  </style>
+</head>
+<body>
+<div class="wrapper">
+<!-- HTML GUI -->
+    <!-- HEADER -->
+    <div class="header w3-top">
+        <div class="w3-bar w3-red w3-left-align w3-large">
+          <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+          <img class="w3-bar-item" src="./images/logoPJATK_medium.png">
+          <p class="w3-bar-item">Speaker Detection System - Menu główne</p>
+        </div>
+    </div>
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+      <nav class="w3-sidebar w3-red w3-large w3-padding" style="width:200px;font-weight:bold;" id="mySidebar"><br>
+        <div class="w3-bar-block">
+          <a href="database.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Otwórz drzwi</a>
+          <a href="intro.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Opcje</a>
+        </div>
+      </nav>
+    </div>
+    <!-- CONTENT -->
+    <div class="content">
+       <button onclick="myFunction0()">Function0</button>
+       <button onclick="myFunction1()">Function1</button>
+       <button onclick="myFunction2()">Function2</button>
+       <button onclick="myFunction3()">Function3</button>
+       <button onclick="myFunction4()">Function4</button>
+       <button onclick="myFunction5()">Function5</button>
+       <button>Function6</button><br><br>
+       <form>
+          <input class="use-keyboard-input" type="text" id="firstValue">Otwórz drzwi</input><br />
+          <input class="use-keyboard-input" type="text" id="firstColor">Opcje</input><br />
+       </form><br><br>
+    </div>
+   <!-- FOOTER -->
+   <div class="footer"><b>© COPYRIGHT Paweł Kamiński, PJATK</b></div>
+  </div>
+  <!-- Poniżej są już skrypty -->
+  <canvas id="renderer"></canvas>
+  <script>
+  // const system = require('system-commands')
+  //
+  // system('mkdir new_directory2').then(() => {
+  //     // Directory was created
+  //     console.log('Successfully created new_directory')
+  // }).catch(error => {
+  //     // Oh no! An error occurred
+  //     console.error(error)
+  // })
+  </script>
+</body>
+</html>
