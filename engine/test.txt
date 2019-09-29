@@ -1,4 +1,0 @@
-test.py
-my First Argument
-My Second Argument
---option=123
